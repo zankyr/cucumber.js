@@ -1,0 +1,30 @@
+{
+  "name": "cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js -p default"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zankyr/cucumber.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zankyr/cucumber.js/issues"
+  },
+  "homepage": "https://github.com/zankyr/cucumber.js#readme",
+  "devDependencies": {
+    "@types/chai": "^4.3.4",
+    "@types/cucumber": "^7.0.0",
+    "chai": "^4.3.7",
+    "cucumber": "^6.0.7",
+    "cucumber-pretty": "^6.0.1",
+    "cucumber-tsflow": "^4.0.0-rc.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  }
+}
